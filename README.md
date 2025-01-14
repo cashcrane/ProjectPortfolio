@@ -1,6 +1,7 @@
 # **Data Analytics & Business Intelligence Portfolio**
 
-Welcome to my professional portfolio! I'm a **Data Professional** with expertise in **Python, SQL, Power BI, R, machine learning, FastAPI, Smartsheet**, and **front-end development**. My experience spans analytics, process automation, and machine learning, with a focus on creating impactful solutions for business challenges. This portfolio showcases a variety of projects, highlighting my ability to:
+## **About Me**
+Welcome to my professional portfolio! I'm Benjamin Crane, a **Data Professional** with a background in Industrial Engineering from Georgia Tech (#1 ranked program in the U.S.) and a passion for **data science, AI, Machine Learning, and Automation**. I have expertise in **Python, SQL, Power BI, R, machine learning, FastAPI, Smartsheet**, and **front-end development**. Fluent in both English and Spanish, with a Minor in Spanish, I bring a global perspective to analytics and problem-solving. My experience spans analytics, process automation, and machine learning, with a focus on creating impactful solutions for business challenges. This portfolio showcases a variety of projects, highlighting my ability to:
 
 - **Analyze and visualize data** to drive business decisions.
 - **Automate mundane processes** using Python, machine learning, and AI tools.
