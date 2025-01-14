@@ -66,13 +66,13 @@ To explore the projects:
 ---
 
 ## **Contact Information**
-- **LinkedIn**: https://www.linkedin.com/in/benjamin-crane-850a82210/(#)
-- **Email**: benbcrane@gmail.com(mailto:#)
+- **LinkedIn**: https://www.linkedin.com/in/benjamin-crane-850a82210/
+- **Email**: benbcrane@gmail.com
 
 ---
 
 ## **Opportunities**
 I am open to:
-- Freelance projects
 - Full-time job opportunities
+- Freelance projects
 - Collaborations in data analytics, automation, and machine learning
