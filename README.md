@@ -66,7 +66,7 @@ To explore the projects:
 ---
 
 ## **Contact Information**
-- **LinkedIn**: https://www.linkedin.com/in/benjamin-crane-850a82210/
+- **LinkedIn**: [@benjamincrane](https://www.linkedin.com/in/benjamin-crane-850a82210/)
 - **Email**: benbcrane@gmail.com
 
 ---
