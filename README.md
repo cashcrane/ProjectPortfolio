@@ -1,6 +1,6 @@
 # **Data Analytics & Business Intelligence Portfolio**
 
-Welcome to my professional portfolio! I'm a **Data Professional** with expertise in **Python, SQL, Power BI, R, machine learning**, and **front-end development**. My experience spans analytics, process automation, and machine learning, with a focus on creating impactful solutions for business challenges. This portfolio showcases a variety of projects, highlighting my ability to:
+Welcome to my professional portfolio! I'm a **Data Professional** with expertise in **Python, SQL, Power BI, R, machine learning, FastAPI, Smartsheet**, and **front-end development**. My experience spans analytics, process automation, and machine learning, with a focus on creating impactful solutions for business challenges. This portfolio showcases a variety of projects, highlighting my ability to:
 
 - **Analyze and visualize data** to drive business decisions.
 - **Automate mundane processes** using Python, machine learning, and AI tools.
