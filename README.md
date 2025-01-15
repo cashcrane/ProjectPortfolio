@@ -3,7 +3,7 @@
 ## Project Background
 Schedulers at Brasfield & Gorrie, a **$7B+** General Contractor in the Southeast US, faced a significant challenge in assigning trade contractors to schedule activities—a task that required analyzing thousands of activities weekly and manually assigning trade labels. This process was time-intensive, prone to human error, diverted attention from higher-value scheduling tasks, and many times did not get done.
 
-To address this, I developed a machine learning solution that automates the classification of scheduling activities by trade contractor. The final proposed solution leverages supervised learning through a Random Forest Classifier. The model was trained on **500,000+** records and achieves **98%** accuracy, ensuring reliable trade assignments with minimal effort.
+To address this, I developed a machine learning solution that automates the classification of scheduling activities by trade contractor. The final proposed solution leverages supervised learning through a Random Forest Classifier. The model was trained on **514+** records and achieves **98%** accuracy, ensuring reliable trade assignments with minimal effort.
 
 Key client needs addressed:
 
@@ -21,7 +21,7 @@ The solution integrates seamlessly into existing workflows via a Vue.js-powered 
 - **Docker**: Containerization
 
 ## Data
-The dataset includes 500,000 records of construction scheduling activities in every market vertical (Hospitals, Infrastructure, Apartments, Multi-Family, Data Centers, Office Buildings, etc.). Data was sourced from the clients proprietary data set of commercial construction projects all over the US.
+The dataset includes 514K records of construction scheduling activities in every market vertical (Hospitals, Infrastructure, Apartments, Multi-Family, Data Centers, Office Buildings, etc.). Data was sourced from the clients proprietary data set of commercial construction projects all over the US.
 - **Activity Name**: Text describing the work being done.
 - **WBS Name**: Text describing the Work Breakdown Structure.
 - **Trade Label**: The assigned sub-contractor scope of work (Electrical, Mechanical, etc.) (target variable). There were 56 classes of trade responsibilities.
