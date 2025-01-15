@@ -65,5 +65,9 @@ For the full Python script used to train the model, see this [Training Script](S
 Here is the confusion matrix for you to download in order to interact with it.
 - [Download Confusion Matrix](Images/confusion_matrix.html)
 
+If you don't wish to download it you can view it here:
+
+![Confusion Matrix](Images/confusion_matrix.png)
+
 
 
