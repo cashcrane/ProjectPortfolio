@@ -27,7 +27,8 @@ The dataset includes 514K records of construction scheduling activities in every
 - **Trade Label**: The assigned sub-contractor scope of work (Electrical, Mechanical, etc.) (target variable). There were 56 classes of trade responsibilities.
 
 ## Sample Data Output
-For the full python script used to access the data via Databricks see this [Fetch Data Notebook](Scripts/ETL/fetch_data.ipynb)
+For the full python script used to access the data via Databricks see this [Fetch Data Notebook](Scripts/ETL/fetch_data.ipynb.
+
 Here is a preview of the data output generated during the ETL process:
 
 | ProjectObjectID | ActivityObjectID | ActivityCode | ActivityName                  | WbsobjectID | Name               | MergedActivityCodeValue | ActivityCodeDescription | ActivityCodeTypeName    | ActivityCodeTypeScope | UpdateDate | IngestedDateTime     | rn |
