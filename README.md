@@ -40,6 +40,28 @@ Here is a preview of the data output generated during the ETL process:
 | 105              | 1005            | GC           | General Contractor Supervision| 205         | Management         | GC                       | General Contractor      | Trade Responsibility    | AS_Global          | 2018-06-05 | 2025-01-15 08:05:00 | 1  |
 | 106              | 1006            | CON          | Lay Concrete Driveway         | 206         | Sitework           | CON                      | Concrete                | Trade Responsibility    | AS_Project          | 2024-03-11 | 2025-01-15 08:10:00 | 2  |
 
+## Modeling Process
+
+The machine learning model was developed using a supervised learning approach with a **Random Forest Classifier**. The following steps were involved:
+
+1. **Preprocessing**:
+   - Text fields (`ActivityName`, `WBS Name`, `combined`) were cleaned and transformed using custom preprocessing scripts.
+   - Target labels (`Trade Label`) were encoded into numeric values using `LabelEncoder`.
+
+2. **Model Training**:
+   - A Random Forest Classifier was selected for its robust performance and ability to handle high-dimensional data.
+   - Hyperparameters were tuned to optimize performance, with key settings including:
+     - `n_estimators`: 200
+     - `class_weight`: 'balanced'
+
+3. **Performance**:
+   - The model achieved an accuracy of **98%** on the test set.
+   - Detailed performance metrics are shown in the classification report below:
+
+![Model Performance](Images/Accuracy_Classification_Report.png)
+
+For the full Python script used to train the model, see this [Training Script](Scripts/Modeling/train_model.py).
+
 
 
 
