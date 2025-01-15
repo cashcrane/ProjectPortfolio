@@ -26,14 +26,15 @@ The dataset includes 514K records of construction scheduling activities in every
 - **WBS Name**: Text describing the Work Breakdown Structure.
 - **Trade Label**: The assigned sub-contractor scope of work (Electrical, Mechanical, etc.) (target variable). There were 56 classes of trade responsibilities.
 
-## Sample Dataset
+## Sample Data Output
 
-```python
-# Top 5 rows of the dataset
-data = [
-    {"Activity Name": "Install Electrical Conduit", "WBS Name": "Electrical Systems", "Trade Label": "Electrical"},
-    {"Activity Name": "Pour Concrete Foundation", "WBS Name": "Foundation & Substructure", "Trade Label": "Concrete"},
-    {"Activity Name": "Install HVAC Ductwork", "WBS Name": "Mechanical Systems", "Trade Label": "Mechanical"},
-    {"Activity Name": "Apply Paint to Interior Walls", "WBS Name": "Interior Finishes", "Trade Label": "Painting"},
-    {"Activity Name": "Erect Structural Steel Beams", "WBS Name": "Structural Frame", "Trade Label": "Structural Steel"}
-]
+Here is a preview of the data output generated during the ETL process:
+
+| ProjectObjectID | ActivityObjectID | ActivityCode | ActivityName              | WbsobjectID | Name         | MergedActivityCodeValue | UpdateDate | rn |
+|------------------|------------------|--------------|---------------------------|-------------|--------------|--------------------------|------------|----|
+| 101              | 1001            | CON          | Pour Concrete Foundation  | 201         | Foundation   | CON                      | 2024-03-10 | 1  |
+| 102              | 1002            | ELEC         | Install Electrical Conduit| 202         | Electrical   | ELEC                     | 2022-01-12 | 1  |
+| 103              | 1003            | PAINT        | Apply Paint to Walls      | 203         | Finishes     | PAINT                    | 2023-07-24 | 1  |
+| 104              | 1004            | ARCH         | Review Architectural Plans| 204         | Design       | ARCH                     | 2024-02-13 | 1  |
+| 105              | 1005            | GC           | General Contractor Superv.| 205         | Management   | GC                       | 2018-06-05 | 1  |
+
