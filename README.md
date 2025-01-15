@@ -30,11 +30,13 @@ The dataset includes 514K records of construction scheduling activities in every
 
 Here is a preview of the data output generated during the ETL process:
 
-| ProjectObjectID | ActivityObjectID | ActivityCode | ActivityName              | WbsobjectID | Name         | MergedActivityCodeValue | UpdateDate | rn |
-|------------------|------------------|--------------|---------------------------|-------------|--------------|--------------------------|------------|----|
-| 101              | 1001            | CON          | Pour Concrete Foundation  | 201         | Foundation   | CON                      | 2024-03-10 | 1  |
-| 102              | 1002            | ELEC         | Install Electrical Conduit| 202         | Electrical   | ELEC                     | 2022-01-12 | 1  |
-| 103              | 1003            | PAINT        | Apply Paint to Walls      | 203         | Finishes     | PAINT                    | 2023-07-24 | 1  |
-| 104              | 1004            | ARCH         | Review Architectural Plans| 204         | Design       | ARCH                     | 2024-02-13 | 1  |
-| 105              | 1005            | GC           | General Contractor Superv.| 205         | Management   | GC                       | 2018-06-05 | 1  |
+| ProjectObjectID | ActivityObjectID | ActivityCode | ActivityName                  | WbsobjectID | Name               | MergedActivityCodeValue | ActivityCodeDescription | ActivityCodeTypeName    | ActivityCodeTypeScope | UpdateDate | IngestedDateTime     | rn |
+|------------------|------------------|--------------|-------------------------------|-------------|--------------------|--------------------------|--------------------------|-------------------------|-----------------------|------------|----------------------|----|
+| 101              | 1001            | CON          | Pour Concrete Foundation      | 201         | Foundation         | CON                      | Concrete                | Trade Responsibility    | Construction          | 2024-03-10 | 2025-01-15 08:05:00 | 1  |
+| 102              | 1002            | ELEC         | Install Electrical Conduit    | 202         | Level 2            | ELEC                     | Electrical              | Trade Responsibility    | Construction          | 2022-01-12 | 2025-01-15 08:05:00 | 1  |
+| 103              | 1003            | PAINT        | Apply Paint to Walls          | 203         | Interior Finishes  | PAINT                    | Paint                   | Trade Responsibility    | Construction          | 2023-07-24 | 2025-01-15 08:05:00 | 1  |
+| 104              | 1004            | ARCH         | Review Architectural Plans    | 204         | Design             | ARCH                     | Architectural Review    | Trade Responsibility    | Design               | 2024-02-13 | 2025-01-15 08:05:00 | 1  |
+| 105              | 1005            | GC           | General Contractor Supervision| 205         | Management         | GC                       | General Contractor      | Trade Responsibility    | Management           | 2018-06-05 | 2025-01-15 08:05:00 | 1  |
+| 106              | 1006            | CON          | Lay Concrete Driveway         | 206         | Sitework           | CON                      | Concrete                | Trade Responsibility    | Construction          | 2024-03-11 | 2025-01-15 08:10:00 | 2  |
+
 
