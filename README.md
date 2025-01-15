@@ -62,6 +62,8 @@ The machine learning model was developed using a supervised learning approach wi
 
 For the full Python script used to train the model, see this [Training Script](Scripts/Modeling/train_model.py).
 
+Here is the confusion matrix for you to download in order to interact with it.
+- [Download Confusion Matrix](Images/confusion_matrix.html)
 
 
 
