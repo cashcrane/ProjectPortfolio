@@ -21,7 +21,7 @@ The solution integrates seamlessly into existing workflows via a Vue.js-powered 
 - **Docker**: Containerization
 
 ## Data
-The dataset includes 514K records of construction scheduling activities in every market vertical (Hospitals, Infrastructure, Apartments, Multi-Family, Data Centers, Office Buildings, etc.). Data was sourced from the clients proprietary data set of commercial construction projects all over the US.
+The dataset includes 514K records of construction scheduling activities in every market vertical (Hospitals, Infrastructure, Apartments, Multi-Family, Data Centers, Office Buildings, etc.). Data was sourced from the clients proprietary data set of commercial construction projects all over the US via python's DataBrick SQL connector.
 - **Activity Name**: Text describing the work being done.
 - **WBS Name**: Text describing the Work Breakdown Structure.
 - **Trade Label**: The assigned sub-contractor scope of work (Electrical, Mechanical, etc.) (target variable). There were 56 classes of trade responsibilities.
@@ -38,5 +38,7 @@ Here is a preview of the data output generated during the ETL process:
 | 104              | 1004            | ARCH         | Review Architectural Plans    | 204         | Design             | ARCH                     | Architectural Review    | Trade Responsibility    | Design               | 2024-02-13 | 2025-01-15 08:05:00 | 1  |
 | 105              | 1005            | GC           | General Contractor Supervision| 205         | Management         | GC                       | General Contractor      | Trade Responsibility    | Management           | 2018-06-05 | 2025-01-15 08:05:00 | 1  |
 | 106              | 1006            | CON          | Lay Concrete Driveway         | 206         | Sitework           | CON                      | Concrete                | Trade Responsibility    | Construction          | 2024-03-11 | 2025-01-15 08:10:00 | 2  |
+
+
 
 
