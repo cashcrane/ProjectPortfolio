@@ -3,10 +3,6 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 import re
 
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('wordnet')
-
 def preprocess_text(text):
     lemmatizer = WordNetLemmatizer()
     stop_words = set(stopwords.words('english'))    
